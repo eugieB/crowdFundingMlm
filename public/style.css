@@ -1,0 +1,169 @@
+/* Navigation styles */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1d1d1d;
+    padding: 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    }
+    
+    .logo h1 {
+    color: #fff;
+    font-size: 24px;
+    }
+    
+    .nav-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 60%;
+    }
+    
+    .nav-links li {
+    list-style: none;
+    }
+    
+    .nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px;
+    transition: all 0.3s ease-in-out;
+    }
+    
+    .nav-links a:hover {
+    background-color: #fff;
+    color: #000;
+    border-radius: 5px;
+    }
+    
+    /* Hero section styles */
+    .hero {
+    height: 80vh;
+    background-image: url('images/hero-background.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+    
+    .hero-content {
+    color: #fff;
+    text-align: center;
+    }
+    
+    .hero-content h2 {
+    font-size: 48px;
+    margin-bottom: 20px;
+    }
+    
+    .hero-content p {
+    font-size: 24px;
+    margin-bottom: 30px;
+    }
+    
+    .btn-primary {
+    display: inline-block;
+    background-color: #fff;
+    color: #000;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 15px 30px;
+    border-radius: 50px;
+    transition: all 0.3s ease-in-out;
+    text-decoration: none;
+    }
+    
+    .btn-primary:hover {
+    background-color: #000;
+    color: #fff;
+    }
+    
+    /* Features section styles */
+    .features {
+    padding: 100px 0;
+    }
+    
+    .features h2 {
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 50px;
+    }
+    
+    .feature-item {
+    text-align: center;
+    margin-bottom: 50px;
+    }
+    
+    .feature-item i {
+    font-size: 48px;
+    color: #1d1d1d;
+    margin-bottom: 20px;
+    }
+    
+    .feature-item h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    }
+    
+    .feature-item p {
+    font-size: 18px;
+    }
+    
+    /* Investment Options section styles */
+    .investment-options {
+    padding: 100px 0;
+    }
+    
+    .investment-options h2 {
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 50px;
+    }
+    
+    .investment-options p {
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 50px;
+    }
+    
+    .investment-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    }
+    
+    .investment-item {
+    text-align: center;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    }
+    
+    .investment-item:last-child {
+    margin-right: 0;
+    }
+    
+    .investment-item i {
+    font-size: 48px;
+    color: #1d1d1d;
+    margin-bottom: 20px;
+    }
+    
+    .investment-item h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    }
+    
+    .investment-item p {
+        margin-top: 10px;
+        font-size: 16px;
+        line-height: 1.5;
+      }
